@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.content{
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	background-color: #fff0d3;
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0px 5px 3px -5px rgba(34, 60, 80, 0.6) inset;
+-moz-box-shadow: 0px 5px 3px -5px rgba(34, 60, 80, 0.6) inset;
+box-shadow: 0px 5px 3px -5px rgba(34, 60, 80, 0.6) inset;
+
+}
+.content .header h1{
+
+	display: contents;
+	font-size: 60px;
+	padding-right: 50px;
+	 
+}
+.content .header a:hover {
+
+    text-decoration: underline;
+
+	
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.menu-items{
+	position: relative;
+}
+.menu-scroll{
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+.menu_item{
+	display: inline-block;
+	position: relative;
+	width: 25%;
+
+}
+.menu_item:hover .slunch-price{
+	background-color: red;
+	
+}
+.menu_item .img-back{
+	color: white;
+	display: block;
+	height: 150px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-sizing: border-box;
+		background-image: url(https://bitnovosti.com/wp-content/uploads/2020/01/vegan-plant-based-burger-king-1068x6011-1.jpg);
+}
+.menu_item ul {
+	padding:0 !important;
+	display:block;
+	list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.menu_item li{
+	list-style: none;
+	margin:13px;
+}
+.slunch-price {
+    margin: 2px;
+    padding:2px;
+    right: 20px;
+    margin-left:18px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+.slunch-price :hover {
+	text-decoration: none;
+	display:block;
+}
+
+
+.start-widget-nav-i.inactive {
+	opacity: 0.7;
+}
+
+.start-widget-nav-i {
+	width: 20px;
+	height: 30px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIyMXB4IiBoZWlnaHQ9IjM4cHgiIHZpZXdCb3g9IjAgMCAyMSAzOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjEgMzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIHBvaW50cz0iMTksMCAyMSwyIDQsMTkgMjEsMzYgMTksMzggMCwxOSAiLz4NCjwvc3ZnPg0K) no-repeat 50% 50%;
+	display: inline-block;
+	padding: 20px;
+	transform: rotate(180deg); ;
+}
+.start-widget-nav-i22 {
+	width: 20px;
+	height: 30px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIyMXB4IiBoZWlnaHQ9IjM4cHgiIHZpZXdCb3g9IjAgMCAyMSAzOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjEgMzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwb2x5Z29uIHBvaW50cz0iMTksMCAyMSwyIDQsMTkgMjEsMzYgMTksMzggMCwxOSAiLz4NCjwvc3ZnPg0K) no-repeat 50% 50%;
+	display: inline-block;
+	padding: 20px;
+}
+
+.start-widget-nav {
+	position: absolute;
+	right: 10px;
+	top: 75px;
+	font: 0/0 a;
+}
+.start-widget-nav22 {
+	position: absolute;
+	right: 65px;
+	top: 75px;
+	font: 0/0 a;
+}
+.fon {
+	width: all;
+	display: block;
+	height: 50px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-sizing: border-box;
+	background: url(https://st3.depositphotos.com/1319768/14962/v/600/depositphotos_149623606-stock-illustration-oriental-sweets-illustration.jpg)repeat-x;
+	 
+}
+.con .hea a:hover {
+
+    text-decoration: underline;
+
+	
+}
+.con .hea a {
+	color: white;
+	text-decoration: none;
+	display:block;
+}
+
+
+@media screen and (max-width: 950px) {
+
+	.header {
+		position: relative;
+    	height: 103px;		
+	}
+
+	.slider-button {
+		    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+	}
+	/*.start-widget-nav22 {
+		position: initial;
+	}*/
+}
+
+@media screen and (max-width: 750px) {
+	.header {
+    	height: auto;		
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.menu_item {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.menu_item {
+		width: 100%;
+	}
+}
